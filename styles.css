@@ -1,0 +1,105 @@
+/* Customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.btn-secondary {
+  height: 40px;
+  width: 150px;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+/* Adaugam font-ul nostru */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Header */
+header {
+  height: 30vh;
+}
+
+.all-images {
+  overflow: hidden;
+  position: relative;
+  height: 220px;
+}
+
+.all-images img {
+  height: 200px;
+  width: auto;
+  margin: 10px;
+  
+  position: absolute;
+  visibility: hidden;
+
+}
+
+
+.scroll-to-top {
+  visibility: hidden;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+
+  color: white;
+  font-size: large;
+  background-color: black;
+
+  border-radius: 50px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
