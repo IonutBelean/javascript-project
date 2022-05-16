@@ -9,16 +9,16 @@ const con = document.querySelector(".con");
 const cra = document.querySelector(".cra");
 const bra = document.querySelector(".bra");
 
-const bar = document.querySelector(".bar");
-const mad = document.querySelector(".mad");
-const val = document.querySelector(".val");
-const sev = document.querySelector(".sev");
-const zar = document.querySelector(".zar");
-const mal = document.querySelector(".mal");
-const mur = document.querySelector(".mur");
-const pam = document.querySelector(".pam");
-const bil = document.querySelector(".bil");
-const gra = document.querySelector(".gra");
+// const bar = document.querySelector(".bar");
+// const mad = document.querySelector(".mad");
+// const val = document.querySelector(".val");
+// const sev = document.querySelector(".sev");
+// const zar = document.querySelector(".zar");
+// const mal = document.querySelector(".mal");
+// const mur = document.querySelector(".mur");
+// const pam = document.querySelector(".pam");
+// const bil = document.querySelector(".bil");
+// const gra = document.querySelector(".gra");
 
 const picture = (word) => {
     if(word === buc) {
@@ -131,117 +131,118 @@ const picture = (word) => {
         con.style.visibility = "hidden";
         cra.style.visibility = "hidden";
         bra.style.visibility = "visible";
-    } else if (word === bar) {
-        bar.style.visibility = "visible";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === mad) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "visible";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === val) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "visible";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === sev) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "visible";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === zar) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "visible";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === mal) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "visible";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === mur) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "visible";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === pam) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "visible";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "hidden";
-    } else if (word === bil) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "visible";
-        gra.style.visibility = "hidden";
-    } else if (word === gra) {
-        bar.style.visibility = "hidden";
-        mad.style.visibility = "hidden";
-        val.style.visibility = "hidden";
-        sev.style.visibility = "hidden";
-        zar.style.visibility = "hidden";
-        mal.style.visibility = "hidden";
-        mur.style.visibility = "hidden";
-        pam.style.visibility = "hidden";
-        bil.style.visibility = "hidden";
-        gra.style.visibility = "visible";
     }
+        //  else if (word === bar) {
+    //     bar.style.visibility = "visible";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === mad) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "visible";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === val) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "visible";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === sev) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "visible";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === zar) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "visible";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === mal) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "visible";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === mur) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "visible";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === pam) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "visible";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === bil) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "visible";
+    //     gra.style.visibility = "hidden";
+    // } else if (word === gra) {
+    //     bar.style.visibility = "hidden";
+    //     mad.style.visibility = "hidden";
+    //     val.style.visibility = "hidden";
+    //     sev.style.visibility = "hidden";
+    //     zar.style.visibility = "hidden";
+    //     mal.style.visibility = "hidden";
+    //     mur.style.visibility = "hidden";
+    //     pam.style.visibility = "hidden";
+    //     bil.style.visibility = "hidden";
+    //     gra.style.visibility = "visible";
+    // }
 };
 
 
@@ -291,42 +292,42 @@ brasov.addEventListener("click", () => {
 
 
 
-barcelona.addEventListener("click", () => {
-    picture(bar)
-});
+// barcelona.addEventListener("click", () => {
+//     picture(bar)
+// });
 
-madrid.addEventListener("click", () => {
-    picture(mad)
-});
+// madrid.addEventListener("click", () => {
+//     picture(mad)
+// });
 
-valencia.addEventListener("click", () => {
-   picture(val)
-});
+// valencia.addEventListener("click", () => {
+//    picture(val)
+// });
 
-sevilia.addEventListener("click", () => {
-   picture(sev)
-});
+// sevilia.addEventListener("click", () => {
+//    picture(sev)
+// });
 
-zaragoza.addEventListener("click", () => {
-picture(zar)
-});
+// zaragoza.addEventListener("click", () => {
+// picture(zar)
+// });
 
-malaga.addEventListener("click", () => {
-    picture(mal)
-});
+// malaga.addEventListener("click", () => {
+//     picture(mal)
+// });
 
-murcia.addEventListener("click", () => {
-    picture(mur)
-});
+// murcia.addEventListener("click", () => {
+//     picture(mur)
+// });
 
-pamplona.addEventListener("click", () => {
-    picture(pam)
-});
+// pamplona.addEventListener("click", () => {
+//     picture(pam)
+// });
 
-bilbao.addEventListener("click", () => {
-    picture(bil)
-});
+// bilbao.addEventListener("click", () => {
+//     picture(bil)
+// });
 
-granada.addEventListener("click", () => {
-    picture(gra)
-});
+// granada.addEventListener("click", () => {
+//     picture(gra)
+// });

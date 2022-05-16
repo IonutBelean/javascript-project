@@ -16,30 +16,7 @@ scrollButton.addEventListener("click", () => {
 })
 
 displayCUrrentWeather("București")
-// picture(buc);
+picture(buc);
 
 
 
-const currentCountry = document.querySelector(".current-country");
-const romaniaCountry = document.querySelector(".button-romania");
-const spainCountry = document.querySelector(".button-spain");
-const franceCountry = document.querySelector(".button-france");
-const englandCountry = document.querySelector(".button-england");
-
-
-
-spainCountry.addEventListener("click", () => {
-    currentCountry.innerHTML = "Spania.";
-});
-
-romaniaCountry.addEventListener("click", () => {
-    currentCountry.innerHTML = "Romania.";
-});
-
-franceCountry.addEventListener("click", () => {
-    currentCountry.innerHTML = "Franța.";
-});
-
-englandCountry.addEventListener("click", () => {
-    currentCountry.innerHTML = "Anglia.";
-});
