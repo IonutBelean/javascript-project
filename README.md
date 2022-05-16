@@ -7,7 +7,7 @@ Remember, work is still in progress!
 
 I used 4 countries and for each 10 cities to display the weather in real time.
 
-For Romania cities I put some pics.
+For cities in Romania I put some pics.
 
 ### Hope you like it! 😁
 
